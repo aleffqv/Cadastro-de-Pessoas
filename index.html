@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de pessoas</title>
 
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/vue@3"></script>
 </head>
 <body>
     <div id="app">
@@ -38,7 +38,7 @@
             
         <div>
             <label for="senha">Senha</label>
-            <input type="password" id="senha" v-model="">
+            <input type="password" id="senha" v-model="senha" required>
         </div>
             
         <button type="submit">Cadastrar</button>
@@ -53,7 +53,7 @@
 
     </div>
 
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 </html>
